@@ -1,0 +1,129 @@
+Lo que debes hacer son 5 archivos html, por ejemplo: index.html, contacto.html, acerca.html etc
+
+23:14
+
+Lo que deben hacer para el entregable es lo siguiente:
+
+1) Crear el wireframe de su pagina web en version mobil y escritorio (este no tiene que ser perfecto y tampoco tendran que guiarse al pie de la letra de este wireframe para su proyecto final ), lo pueden hacer con balsamiq o cualquier otra herramienta que sepan o se les facilite usar. tambien deben convertirlo a pdf.
+
+2)Crear 5 archivos html en cada html incluir una lista desordenada (ul) con los nombres de los 5 archivos html y que al hacer click en cada una se rediriga a la pagina html enlazada.
+en la pagina de contacto.html incluir un formulario
+en los 5 archivos html incluyan un footer (lo hacen en index.html y copian en las demas el mismo footer)
+en cualquiera o varios de los archivos html incluir imagenes y videos
+
+
+------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:900px){
+    .header{
+        flex-direction: column;
+    }
+    .enlace{
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    .tendencias{
+        font-size: 18px;
+    }
+
+    .container{
+        flex-direction: column;
+        width: 90%;
+        height: 800px;
+        outline: 2px solid #ccc;
+        margin: 20px auto;
+        display: flex;
+        padding: 10px;
+        }
+    
+}
+
+@media screen and (max-width:500px){
+    .nav{
+        justify-content: center;
+        margin-right: 15px;
+    }
+    .menu{
+        text-align: center;
+        padding: 30px 0 0 0;
+    }
+    .enlace{
+        font-size: 12px;
+        padding: 5px;
+    } 
+    .busqueda{
+        justify-content: center;
+        padding: 30px;
+     }
+     .tendencias{
+         text-align: center;
+        font-size: 15px;
+    }
+    .container{
+        flex-direction: column;
+        width: 90%;
+        height: 800px;
+        outline: 2px solid #ccc;
+        }
+   
+    .imagen1{
+        width: 200px;
+        height: 200px;
+    }
+    .imagen2{
+        width: 200px;
+        height: 200px;
+    }
+    .imagen3{
+        width: 200px;
+        height: 200px;
+    }
+    .formulario{
+        flex-direction: column;
+    }
+}
+
+.item-transition{
+    background: red;
+    width: 135px;
+    height: 135px;
+    clip-path: circle(50% at top left);
+    transition-property: clip-path;
+    transition-duration: 2s ;
+    transition-timing-function:ease-out ;
+    /* transition-delay: 1s; */
+}
+
+.container-transition:hover .item-transition{
+    clip-path: circle(100% at top left);
+}
+
+
+.contenedor-main{
+    background-image: linear-gradient(white,red);
+}
