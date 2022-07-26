@@ -54,7 +54,7 @@ p{
 
 /* Main */
 /* Section*/
-.container{
+/* .container{
     width: 90%;
     max-width: 900px;
     height: 280px;
@@ -62,18 +62,18 @@ p{
     margin: 20px auto;
     display: flex;
     padding: 10px;
-}
+} */
 
 .item{
     padding: 10px;
 }
 
 /* Form */
-.formulario{
+/* .formulario{
     display: flex;
     flex-direction:row;
     margin:5px 5px 15px 185px;
-}
+} */
 
 .suscribete{
     margin: 10px;
@@ -324,7 +324,7 @@ footer{
         font-size: 18px;
     }
 
-    .container{
+    /* .container{
         flex-direction: column;
         width: 90%;
         height: 800px;
@@ -332,7 +332,7 @@ footer{
         margin: 20px auto;
         display: flex;
         padding: 10px;
-        }
+        } */
 
         .title{
             text-align: center;
@@ -361,12 +361,12 @@ footer{
          text-align: center;
         font-size: 15px;
     }
-    .container{
+    /* .container{
         flex-direction: column;
         width: 90%;
         height: 800px;
         outline: 2px solid #ccc;
-        }
+        } */
    
     .imagen1{
         width: 200px;
@@ -380,9 +380,9 @@ footer{
         width: 200px;
         height: 200px;
     }
-    .formulario{
+    /* .formulario{
         flex-direction: column;
-    }
+    } */
 
     .title{
         text-align: center;
