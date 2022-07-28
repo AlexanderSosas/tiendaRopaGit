@@ -408,6 +408,15 @@ footer{
     background-image: linear-gradient(white,red);
 }
 
+.col-image{
+    background-color: rgb(192, 106, 124);
+    
+
+}
+
+.card-img-top{
+    mix-blend-mode: multiply;
+}
 
 /* .footer p{
     color: black;
