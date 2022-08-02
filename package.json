@@ -1,0 +1,23 @@
+{
+  "name": "tiendaropa-alexandersosagit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderSosas/tiendaRopaGit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexanderSosas/tiendaRopaGit/issues"
+  },
+  "homepage": "https://github.com/AlexanderSosas/tiendaRopaGit#readme",
+  "devDependencies": {
+    "sass": "^1.54.0"
+  }
+}

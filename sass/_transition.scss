@@ -1,0 +1,13 @@
+.item-transition{
+    background: red;
+    width: 135px;
+    height: 135px;
+    clip-path: circle(50% at top left);
+    transition-property: clip-path;
+    transition-duration: 2s ;
+    transition-timing-function:ease-out ;   
+}
+
+.container-transition:hover .item-transition{
+    clip-path: circle(100% at top left);
+}

@@ -1,0 +1,27 @@
+/* Footer */
+footer{
+    /* background-color: white; */
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+    justify-content: center;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 14px;
+    margin:20px 0 0 0;
+    color: #9e9797;
+}
